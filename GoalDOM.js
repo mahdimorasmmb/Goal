@@ -3,6 +3,11 @@ function render(element,rootNode){
 }
 
 
+function hydrate(element,rootNode){
+    console.log(element,rootNode);
+}
+
 const GoalDOM = {
-    render
+    render,
+    hydrate
 }
